@@ -1,0 +1,29 @@
+# Ignore Arduino build files
+*.ino.*
+*.cpp.*
+*.h.*
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+*.sym
+*.lss
+
+# Ignore Arduino libraries
+/libraries/
+
+# Ignore Arduino IDE files
+*.bak
+*.tmp
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore build directories
+/build/
+
+.vscode
